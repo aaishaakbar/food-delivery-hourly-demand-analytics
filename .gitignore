@@ -1,0 +1,30 @@
+# ==== NEVER commit the original confidential workbook or any real exports ====
+Hour_wise.pbix
+*RESTAURANT LIST*
+*All Order History*
+/raw-data/
+/confidential/
+
+# Power BI temp/lock files
+~$*.pbix
+*.pbix.bak
+*.pbix.lock
+
+# Excel/Office temp/lock files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Local environment / secrets
+.env
+*.pbids
+*.pbit.bak
